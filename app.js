@@ -1,15 +1,10 @@
-(function(){
+'use strict';
 
-	var trs = document.querySelectorAll('.table tr');
-
-	var i = 0;
-	 while (trs[i]) {
-	 	var linhaAluno = trs[i];
-	 	console.log(linhaAluno);
-	 	i++;
-	 }
+var arr = ['cris', 6, 5, true, false, false];
+var arr1 = ['ted', 8, 5, 5.5, 'false', 'false'];
 
 
 
+var pos = arr.join(' *-* ');
+console.log(pos);
 
-})();

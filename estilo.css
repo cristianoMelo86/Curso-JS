@@ -1,0 +1,49 @@
+.wrapper{
+	
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(40px, auto);
+	height: 100vh;
+	grid-gap: .3rem;
+	grid-template-areas: 
+		"nav"
+		"content"
+		"jobs"
+		"footer"
+	;
+
+}
+
+.nav{
+	background-color: #38C6AFFF;
+	grid-area: nav;
+}
+
+.content{
+	background-color: gold;
+	grid-area: content;
+}
+
+.jobs{
+	background-color: #38C6AFFF;
+	grid-area: jobs;
+}
+
+.footer{
+	background-color: silver;
+	grid-area: footer;
+}
+
+
+@media(min-width: 768px){
+	.wrapper{
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 
+			"nav 		nav"
+			"content 	content"
+			".			jobs"
+			"footer 	."
+		;
+	}
+}
+
