@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/cristianoMelo86/Curso-JS#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
   },
   "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
     "gulp-htmlmin": "^4.0.0"
   }
 }
